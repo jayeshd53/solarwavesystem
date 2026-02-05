@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Solar Installer in Maharashtra: Solar Wave Systems</title>
+    <meta name="description" content="Get ₹78,000 Govt Subsidy with Solar Wave Systems. #1 Rooftop Solar Installer in Maharashtra.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKVKM5K51Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TKVKM5K51Q');
+</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        /* --- CSS STYLES --- */
+        :root {
+            /* CHANGED THEME: Yellow & Sky Blue */
+            --primary: #FFC107; /* Solar Yellow */
+            --primary-dark: #FF8F00; /* Darker Amber for text readability */
+            --accent: #03A9F4; /* Sky Blue */
+            --dark: #121212;
+            --text-main: #333333;
+            --text-light: #666666;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 0.95);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --gradient: linear-gradient(135deg, #FFC107, #03A9F4);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        body { background: #f8f9fa; color: var(--text-main); overflow-x: hidden; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+        /* PRELOADER */
+        #preloader {
+            position: fixed; left: 0; top: 0; width: 100%; height: 100%;
+            background-color: #fff; z-index: 9999;
+            display: flex; justify-content: center; align-items: center;
+            transition: opacity 0.8s, visibility 0.8s;
+        }
+        #preloader.hide-preloader { opacity: 0; visibility: hidden; pointer-events: none; }
+        
+        .solar-system { position: relative; width: 200px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .sun-rays-svg { position: absolute; width: 140px; height: 140px; animation: 8s linear infinite spinRays; z-index: 1; }
+        .sun-rays-svg circle { fill: none; stroke: var(--primary); stroke-width: 5; stroke-dasharray: 10 10; stroke-linecap: round; }
+        .sun-core { width: 70px; height: 70px; background: radial-gradient(circle, var(--primary) 20%, var(--accent) 100%); border-radius: 50%; box-shadow: 0 0 25px var(--primary); animation: 1.5s ease-in-out infinite pulseSun; z-index: 10; }
+        .loading-text { position: absolute; bottom: -30px; width: 100%; text-align: center; animation: 2s infinite blinkText; }
+        
+        @keyframes spinRays { 0% { transform: rotate(0); } 100% { transform: rotate(360deg); } }
+        @keyframes pulseSun { 0%, 100% { transform: scale(0.9); box-shadow: 0 0 15px var(--primary); } 50% { transform: scale(1.1); box-shadow: 0 0 35px var(--primary); } }
+        @keyframes blinkText { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+
+        /* HEADER */
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1rem 5%; background: var(--glass); backdrop-filter: blur(12px);
+            position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        .logo img { height: 50px; width: auto; vertical-align: middle; }
+        .navbar ul { display: flex; gap: 2rem; align-items: center; }
+        .navbar a { font-weight: 500; font-size: 0.95rem; color: var(--dark); position: relative; transition: 0.3s; }
+        .navbar a:hover, .navbar a.active { color: var(--primary-dark); }
+        .navbar a::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0; background: var(--gradient); transition: 0.3s; }
+        .navbar a:hover::after { width: 100%; }
+        
+        .nav-calc-btn {
+            border: none; padding: 0.7rem 1.5rem; border-radius: 50px;
+            background: var(--gradient); color: #000; cursor: pointer; /* Black text on yellow btn */
+            font-weight: 600; display: flex; align-items: center; gap: 8px;
+            transition: 0.3s; box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+        }
+        .nav-calc-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(255, 193, 7, 0.5); }
+        .hamburger { display: none; font-size: 1.5rem; cursor: pointer; color: var(--dark); }
+
+        /* HERO SECTION */
+        #home {
+            display: flex; align-items: center; padding: 0 5%; min-height: 100vh;
+            background: radial-gradient(circle at 80% 50%, rgba(3, 169, 244, 0.1) 0, rgba(255, 255, 255, 0) 60%);
+            position: relative; overflow: hidden;
+        }
+        .hero-content { flex: 1; max-width: 600px; z-index: 2; }
+        .hero-content h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; color: var(--dark); }
+        .hero-content .highlight { color: var(--primary-dark); }
+        .hero-content p { font-size: 1.1rem; color: var(--text-light); margin-bottom: 2rem; }
+        .badge { display: inline-block; background: rgba(255, 193, 7, 0.15); color: var(--primary-dark); padding: 5px 15px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; margin-bottom: 15px; }
+        
+        .hero-highlights { display: flex; gap: 1.5rem; margin-bottom: 2rem; }
+        .hero-highlights span { font-weight: 600; display: flex; align-items: center; gap: 5px; color: var(--text-main); }
+        .hero-highlights i { color: var(--accent); }
+
+        .cta-btn {
+            padding: 0.8rem 2rem; background: var(--gradient); border: none; border-radius: 50px;
+            font-size: 1rem; color: #000; cursor: pointer; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 10px;
+            box-shadow: 0 10px 20px rgba(255, 193, 7, 0.3); transition: 0.3s;
+        }
+        .cta-btn:hover { transform: translateY(-3px); }
+
+        /* GENERAL SECTIONS */
+        .section-title { text-align: center; margin-bottom: 4rem; margin-top: 4rem; }
+        .section-title h2 { font-size: 2.5rem; font-weight: 700; color: var(--dark); position: relative; display: inline-block; }
+        .section-title h2 span { color: var(--primary-dark); }
+        .section-title h2::after { content: ''; display: block; width: 50%; height: 4px; background: var(--gradient); margin: 10px auto 0; border-radius: 2px; }
+
+        /* ABOUT */
+        .about-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; padding: 0 5%; }
+        .about-wrapper img { width: 100%; border-radius: 20px; box-shadow: var(--shadow); }
+        .vm-grid { display: grid; gap: 1.5rem; margin-top: 2rem; }
+        .vm-card {
+            background: #fff; padding: 1.5rem; border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05); border-left: 4px solid var(--primary);
+            transition: 0.3s;
+        }
+        .vm-card:hover { transform: translateX(10px); }
+        .vm-card i { font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 0.5rem; }
+        .trust-badges { display: flex; gap: 1rem; margin-top: 1rem; }
+        .t-badge { background: #e1f5fe; color: var(--accent); padding: 8px 15px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; }
+
+        /* PROCESS */
+        #process { padding: 4rem 5%; background: #f9f9f9; }
+        .process-container { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+        .process-step { flex: 1; min-width: 200px; padding: 1rem; text-align: center; position: relative; }
+        .step-icon {
+            width: 80px; height: 80px; margin: 0 auto 1rem;
+            border: 2px solid var(--primary); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.8rem; color: var(--primary-dark); transition: 0.3s; background: #fff; position: relative; z-index: 2;
+        }
+        .process-step:hover .step-icon { background: var(--primary); color: #000; box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2); }
+        .step-number { font-size: 4rem; font-weight: 800; color: rgba(0,0,0,0.03); position: absolute; top: -10px; left: 50%; transform: translateX(-50%); z-index: 0; }
+        
+        /* COMPARISON */
+        #comparison { padding: 4rem 5%; background: #f4f4f4; }
+        .comp-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        .comp-list li { margin-bottom: 1rem; font-size: 1.1rem; display: flex; gap: 10px; align-items: center; }
+        .comp-list i { color: var(--primary-dark); }
+        .comp-chart { background: #fff; padding: 2rem; border-radius: 20px; box-shadow: var(--shadow); text-align: center; }
+        .bar-group { margin-bottom: 1.5rem; }
+        .bar-label { display: block; text-align: left; font-weight: 700; margin-bottom: 5px; }
+        .bar-container { width: 100%; background: #eee; border-radius: 10px; height: 35px; overflow: hidden; }
+        .bar { height: 100%; display: flex; align-items: center; padding: 0 10px; color: #fff; font-weight: 600; font-size: 0.85rem; width: 0; transition: width 1.5s ease-out; white-space: nowrap; }
+        .grid-bar { background: #e74c3c; }
+        .solar-bar { background: var(--primary); color: #000; }
+
+        /* PROJECTS */
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 0 5%; }
+        .project-card { border-radius: 20px; height: 300px; overflow: hidden; position: relative; cursor: pointer; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .project-card img { width: 100%; height: 100%; object-fit: cover; transition: 0.6s; }
+        .project-card:hover img { transform: scale(1.1); filter: brightness(0.7); }
+        .project-card .overlay {
+            position: absolute; bottom: 0; left: 0; width: 100%; padding: 1.5rem;
+            background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+            color: #fff; transform: translateY(20px); opacity: 0; transition: 0.4s;
+        }
+        .project-card:hover .overlay { transform: translateY(0); opacity: 1; }
+
+        /* STATS */
+        #why-us {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1000&q=80') center/cover fixed;
+            padding: 5rem 5%; color: #fff; text-align: center; margin: 5rem 0;
+        }
+        .stats-container { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem; }
+        .stat-box span { font-size: 3.5rem; font-weight: 800; color: var(--primary); display: inline-block; }
+        .stat-box p { font-size: 1.2rem; font-weight: 300; letter-spacing: 1px; }
+
+        /* PARTNERS */
+        #partners { padding: 4rem 5%; background: #fff; overflow: hidden; }
+        .partnerSwiper { padding: 20px 0; border-top: 1px dashed #eee; }
+        .partnerSwiper .swiper-slide {
+            display: flex; justify-content: center; align-items: center;
+            height: 80px; background: #fff; transition: 0.3s;
+        }
+        .partnerSwiper .swiper-slide img { max-width: 80%; max-height: 60px; object-fit: contain; filter: grayscale(20%); opacity: 0.6; transition: 0.3s; }
+        .partnerSwiper .swiper-slide:hover img { filter: grayscale(0%); opacity: 1; transform: scale(1.1); }
+
+        /* CONTACT */
+        .contact-wrapper { display: flex; gap: 4rem; flex-wrap: wrap; padding: 0 5%; margin-bottom: 5rem; }
+        .contact-info, .contact-form { flex: 1; min-width: 300px; }
+        .contact-info ul li { margin-bottom: 1.5rem; display: flex; gap: 15px; align-items: center; font-size: 1.1rem; }
+        .contact-info i { width: 40px; height: 40px; background: var(--primary); color: #000; border-radius: 50%; display: flex; justify-content: center; align-items: center; flex-shrink: 0; }
+        
+        .contact-form form { display: flex; flex-direction: column; gap: 1.5rem; background: #fff; padding: 2.5rem; border-radius: 20px; box-shadow: var(--shadow); }
+        .contact-form input, .contact-form select, .contact-form textarea { padding: 1rem; border: 1px solid #ddd; border-radius: 10px; width: 100%; outline: none; transition: 0.3s; }
+        .contact-form input:focus { border-color: var(--primary); box-shadow: 0 0 10px rgba(255, 193, 7, 0.1); }
+        .contact-form button { padding: 1rem; background: var(--dark); color: #fff; border: none; border-radius: 10px; font-size: 1.1rem; cursor: pointer; transition: 0.3s; font-weight: 600; }
+        .contact-form button:hover { background: var(--primary); color: #000; }
+
+        /* FOOTER */
+        .main-footer { background: var(--dark); color: #fff; padding: 4rem 5% 1rem; }
+        .footer-content-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; margin-bottom: 3rem; }
+        .f-socials { display: flex; gap: 15px; margin-top: 1rem; }
+        .f-socials a { width: 40px; height: 40px; background: rgba(255,255,255,0.1); display: flex; justify-content: center; align-items: center; border-radius: 50%; color: #fff; transition: 0.3s; }
+        .f-socials a:hover { background: var(--primary); color:#000; transform: translateY(-3px); }
+        .f-links li { margin-bottom: 10px; }
+        .f-links a { color: #aaa; transition: 0.3s; }
+        .f-links a:hover { color: var(--primary); padding-left: 5px; }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; text-align: center; color: #777; font-size: 0.9rem; }
+        .city-links { font-size: 1rem; color: #aaa; }
+        
+        /* MODAL CALCULATOR */
+        .modal-calc { display: none; position: fixed; z-index: 10000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); backdrop-filter: blur(5px); justify-content: center; align-items: center; padding: 20px; }
+        .modal-calc-content { background: #fff; width: 100%; max-width: 850px; border-radius: 20px; position: relative; box-shadow: 0 25px 60px rgba(0,0,0,0.4); display: flex; flex-direction: column; overflow: hidden; animation: zoomIn 0.3s; }
+        @keyframes zoomIn { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+        .close-calc { position: absolute; right: 20px; top: 15px; font-size: 2rem; color: #aaa; cursor: pointer; z-index: 10; line-height: 1; }
+        .close-calc:hover { color: var(--primary); }
+        
+        .calc-header { background: #f0faff; padding: 1.5rem; border-bottom: 1px solid #eee; text-align: center; }
+        .calc-header h2 { font-size: 1.6rem; color: #333; margin-bottom: 5px; }
+        
+        .calc-tabs { display: flex; gap: 10px; padding: 15px 20px 0; justify-content: center; background: #fff; flex-wrap: wrap; }
+        .tab { border: none; background: #f5f5f5; padding: 10px 20px; border-radius: 8px; color: #666; cursor: pointer; font-weight: 600; display: flex; gap: 8px; align-items: center; transition: 0.3s; }
+        .tab:hover { background: #eee; }
+        .tab.active { background: var(--primary); color: #000; }
+        
+        .calc-body { display: grid; grid-template-columns: 1fr 1.1fr; padding: 20px; gap: 0; }
+        .calc-left { padding: 20px; border-right: 1px solid #eee; }
+        .calc-right { padding: 20px; background: #fff; }
+        
+        .bill-display { font-size: 2.8rem; color: var(--primary-dark); font-weight: 800; margin-bottom: 15px; }
+        input[type=range] { width: 100%; accent-color: var(--primary); height: 6px; cursor: pointer; margin-bottom: 5px; }
+        .slider-labels { display: flex; justify-content: space-between; font-size: 0.8rem; color: #999; }
+        .res-row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 1rem; color: #444; align-items: center; }
+        .res-val { font-weight: 700; color: #333; }
+        .res-val.text-green { color: var(--primary-dark); }
+        .res-val.big { font-size: 1.4rem; color: var(--primary-dark); }
+        .divider { height: 1px; background: #eee; margin: 10px 0; }
+        .payback-box { background: #fff8e1; color: #f57f17; padding: 10px; border-radius: 8px; margin: 10px 0 15px; border: 1px dashed #fbc02d; text-align: center; font-size: 0.95rem; }
+        
+        .action-btn { width: 100%; padding: 14px; margin-top: 5px; background: #25d366; color: #fff; border: none; border-radius: 10px; font-size: 1.1rem; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 10px; cursor: pointer; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3); transition: 0.3s; }
+        .action-btn:hover { background: #1ebc57; transform: translateY(-2px); }
+
+        .modal-img-content { max-width: 90%; text-align: center; }
+        .modal-img-content img { max-width: 100%; max-height: 80vh; border-radius: 10px; }
+        .modal-img-content p { color: #fff; margin-top: 1rem; font-size: 1.2rem; }
+        
+        /* New Styling for Commercial/Industrial Form */
+        .biz-input { padding: 12px; width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 12px; font-size: 0.95rem; outline: none; transition: 0.3s; }
+        .biz-input:focus { border-color: var(--accent); box-shadow: 0 0 8px rgba(52, 152, 219, 0.2); }
+        .helper-text { font-size: 0.8rem; color: #888; margin-top: -8px; margin-bottom: 12px; display: block; }
+        .capacity-display { background: #f0faff; padding: 10px; border-radius: 8px; text-align: center; margin-bottom: 15px; color: var(--accent); border: 1px solid #b3e5fc; }
+        
+        /* Attractive Cleaning Offer Badge */
+        .cleaning-offer {
+            background: linear-gradient(135deg, #fff5f5, #ffe0e0);
+            border: 1px dashed #ff4757;
+            color: #d63031;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+            font-size: 0.95rem;
+            text-align: center;
+            line-height: 1.5;
+            animation: pulseGlow 2s infinite;
+        }
+        .cleaning-offer i { color: #ff4757; margin-right: 5px; }
+        @keyframes pulseGlow { 0% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0.2); } 70% { box-shadow: 0 0 0 10px rgba(255, 71, 87, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0); } }
+
+        /* FLOATING BTN */
+        .floating-calc-btn { position: fixed; bottom: 80px; right: 20px; background: var(--gradient); color: #000; padding: 15px 25px; border-radius: 50px; font-weight: 700; box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4); z-index: 999; animation: bounce 2s infinite; display: flex; align-items: center; gap: 10px; }
+        @keyframes bounce { 0%, 100%, 20%, 50%, 80% { transform: translateY(0); } 40% { transform: translateY(-10px); } 60% { transform: translateY(-5px); } }
+
+        /* ANIMATION UTILS */
+        .hidden-el { opacity: 0; transform: translateY(50px); transition: 0.8s ease-out; }
+        .show-el { opacity: 1; transform: translateY(0); }
+
+        /* STICKY BOTTOM BAR (MOBILE ONLY) */
+        .mobile-sticky-footer { display: none; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999; box-shadow: 0 -2px 10px rgba(0,0,0,.1); background: #fff; justify-content: space-between; }
+        .sticky-btn { flex: 1; display: flex; align-items: center; justify-content: center; padding: 15px; font-weight: 600; color: #fff; gap: 10px; }
+        .call-sticky { background: var(--accent); }
+        .whatsapp-sticky { background: #25D366; }
+        .manual-bill-input { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ddd; border-radius: 6px; margin-top: 10px; text-align: center; }
+
+        /* --- MOBILE OPTIMIZATION --- */
+        @media (max-width: 768px) {
+            .mobile-sticky-footer { display: flex; }
+            .navbar { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: #fff; flex-direction: column; padding: 2rem; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+            .navbar.active { display: flex; }
+            .hamburger { display: block; }
+            .navbar ul { flex-direction: column; width: 100%; }
+            .about-wrapper, .comp-wrapper, .calc-body, .project-grid, .team-container, .contact-wrapper { grid-template-columns: 1fr; display: grid; }
+            .hero-visual { display: none !important; }
+            #home { flex-direction: column; justify-content: flex-start; padding-top: 120px; text-align: center; }
+            .hero-content { max-width: 100%; }
+            .hero-content h1 { font-size: 2.2rem; }
+            .section-title { margin-top: 2rem; margin-bottom: 2rem; }
+            .section-title h2 { font-size: 2rem; }
+            section, #team, #process, #comparison, #projects, #partners, #contact { padding: 3rem 5%; }
+            .calc-left { border-right: none; border-bottom: 1px solid #eee; }
+            .modal-calc-content { max-height: 90vh; overflow-y: auto; width: 95%; }
+            .bill-display { font-size: 2rem; }
+            .footer-content-grid { grid-template-columns: 1fr; text-align: center; gap: 2rem; }
+            .footer-col { margin: 0 auto; }
+            .footer-brand { justify-content: center; }
+            .f-socials { justify-content: center; }
+            .gallery-grid { max-width: 300px; margin: 0 auto; }
+        }
+
+        /* --- SCHEMES & SUBSIDIES CSS --- */
+#schemes { padding: 4rem 5%; background: #f0f4f8; }
+
+.schemes-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem; 
+}
+
+.scheme-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    border-top: 5px solid var(--primary);
+    transition: 0.3s;
+}
+
+.scheme-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+
+/* specific colors for different cards */
+.scheme-card.farm { border-color: #f1c40f; } /* Yellow for Solar/Crops */
+.scheme-card.state { border-color: #e74c3c; } /* Red for Policy */
+.scheme-card.net { border-color: #8e44ad; } /* Purple for Tech */
+
+.scheme-icon {
+    width: 60px; height: 60px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;
+    font-size: 1.5rem; color: var(--dark);
+    margin-bottom: 1.5rem;
+}
+
+.scheme-badge {
+    position: absolute; top: 20px; right: 20px;
+    background: #e8f5e9; color: #2ecc71;
+    padding: 5px 12px; border-radius: 20px;
+    font-size: 0.8rem; font-weight: 700;
+    border: 1px solid #2ecc71;
+}
+
+.scheme-card h3 { font-size: 1.3rem; margin-bottom: 10px; color: var(--dark); }
+.scheme-card h4 { font-size: 1rem; color: var(--text-light); margin-bottom: 15px; font-weight: 500; }
+
+.scheme-list { margin-top: 15px; margin-bottom: 15px; }
+.scheme-list li { margin-bottom: 8px; font-size: 0.95rem; color: #555; display: flex; gap: 10px; align-items: flex-start; }
+.scheme-list i { color: var(--primary); margin-top: 4px; }
+
+.benefit-box { background: #f9f9f9; padding: 10px; border-radius: 8px; font-size: 0.9rem; color: #666; border-left: 3px solid var(--accent); }
+
+/* --- SERVICES CATALOG CSS --- */
+#services-catalog { padding: 4rem 5%; background: #fff; }
+.catalog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+
+.catalog-item {
+    display: flex; gap: 15px;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.catalog-item:hover { border-color: var(--primary); background: #fcfdfd; }
+
+.cat-icon { 
+    font-size: 2rem; color: var(--accent); 
+    min-width: 50px; text-align: center;
+}
+.cat-content h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.cat-content ul li { font-size: 0.9rem; color: #777; margin-bottom: 4px; list-style: disc; margin-left: 15px;}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Right side */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Mobile ROI Button */
+.mobile-calc-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .mobile-calc-btn {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="solar-system">
+            
+            <svg class="sun-rays-svg" viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="54"></circle>
+            </svg>
+            <div class="sun-core"></div>
+            <div class="loading-text">
+                <h2>SOLAR</h2>
+                <h3>WAVE</h3>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+    <div class="logo">
+        <img src="LOGO.jpg" width="100px">
+    </div>
+
+    <div class="header-actions">
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <ul id="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            </ul>
+    </nav>
+</header>
+
+
+    <section id="home">
+        <div class="hero-content hidden-el">
+            <div class="badge">#1 Solar Company in Maharashtra</div>
+            <h1>Power Your Future <br> With <span class="highlight">Solar Energy</span></h1>
+            <p>Switch to green energy today. Get <strong>₹78,000+</strong> Government Subsidy and reduce your electricity bill to <strong>Zero</strong>.</p>
+            
+            <div class="hero-highlights">
+                <span><i class="fa-solid fa-shield-halved"></i> 30 Years Panel Warranty</span>
+                <span><i class="fa-solid fa-indian-rupee-sign"></i> Easy EMI</span>
+            </div>
+
+            <button onclick="openCalcModal()" class="cta-btn">Calculate Your Savings <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        
+        <div class="hero-visual hidden-el" style="flex: 1; display: flex; justify-content: center;">
+             <img src="https://th.bing.com/th/id/R.9bb73ff458e07629d414c144de2de2b6?rik=flHbHoiV1oQj9g&riu=http%3a%2f%2fsolarways.in%2fsolar_images%2fbg_panal.jpg&ehk=lrWAxbT4w7tQuflU6fJOqIvaGLEDDtJNcdMccQw1mwA%3d&risl=&pid=ImgRaw&r=0" alt="Hero Image" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title hidden-el">
+            <h2>About <span>Solar Wave</span></h2>
+        </div>
+        <div class="about-wrapper">
+            <img src="about.jpg".jpg" alt="About Us" class="hidden-el">
+            <div class="about-text hidden-el">
+                <p><strong>Solar Wave Systems</strong> isn't just a company; we are a movement. We are dedicated to transforming how India consumes energy. By combining world-class technology with local expertise, we provide solar solutions that are efficient, durable, and aesthetically pleasing.</p>
+                <div class="trust-badges">
+                    <div class="t-badge"><i class="fa-solid fa-certificate"></i> Govt. Approved</div>
+                    <div class="t-badge"><i class="fa-solid fa-star"></i> 5-Star Rated</div>
+                </div>
+                <div class="vm-grid">
+                    <div class="vm-card">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h4>Our Mission</h4>
+                        <p>To empower every household to generate clean electricity and achieve energy independence.</p>
+                    </div>
+                    <div class="vm-card">
+                        <i class="fa-solid fa-eye"></i>
+                        <h4>Our Vision</h4>
+                        <p>A pollution-free India where solar energy is the primary power source.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schemes">
+    <div class="section-title hidden-el">
+        <h2>Govt. Schemes & <span>Subsidies</span></h2>
+        <p style="color:#666; margin-top:10px;">We help you navigate Maharashtra & Central Govt. benefits</p>
+    </div>
+
+    <div class="schemes-grid">
+        <div class="scheme-card hidden-el">
+            <span class="scheme-badge">Flat ₹78k Subsidy</span>
+            <div class="scheme-icon" style="color:var(--primary);"><i class="fa-solid fa-house-chimney-user"></i></div>
+            <h3>PM Surya Ghar</h3>
+            <h4>Muft Bijli Yojana</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> <strong>1 kW:</strong> ~₹30,000 Subsidy</li>
+                <li><i class="fa-solid fa-check"></i> <strong>2 kW:</strong> ~₹60,000 Subsidy</li>
+                <li><i class="fa-solid fa-check"></i> <strong>3 kW+:</strong> Fixed ~₹78,000</li>
+            </ul>
+            <div class="benefit-box">
+                <strong>Benefit:</strong> Subsidy credited directly to your bank account after installation.
+            </div>
+        </div>
+
+        <div class="scheme-card farm hidden-el">
+            <span class="scheme-badge" style="color:#f39c12; border-color:#f39c12; background:#fffbf0;">90% Subsidy</span>
+            <div class="scheme-icon" style="color:#f39c12;"><i class="fa-solid fa-tractor"></i></div>
+            <a href="pm-kusum-yojana.html"><h3>PM KUSUM Yojana </h3>
+            <h4>Kisan Solar Pumps/ Solar Power Plants</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> Subsidy raised from 40% to <strong>90%</strong></li>
+                <li><i class="fa-solid fa-check"></i> For Irrigation Pumps</li>
+                <li><i class="fa-solid fa-check"></i> Replaces Diesel Costs</li>
+            </ul></a>
+            <div class="benefit-box">
+                <strong>We Help With:</strong> Eligibility verification & documentation for farmers.
+            </div>
+        </div>
+
+        <div class="scheme-card net hidden-el">
+            <div class="scheme-icon" style="color:#8e44ad;"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Net-Metering Rules</h3>
+            <h4>Export Power to Grid</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> Export excess solar power</li>
+                <li><i class="fa-solid fa-check"></i> Get credit in electricity bill</li>
+                <li><i class="fa-solid fa-check"></i> Zero bill possibility</li>
+            </ul>
+            <div class="benefit-box">
+                <strong>ROI Boost:</strong> Earn from your roof even when you aren't home.
+            </div>
+        </div>
+
+        <div class="scheme-card state hidden-el">
+            <div class="scheme-icon" style="color:#e74c3c;"><i class="fa-solid fa-user-graduate"></i></div>
+            <h3>State Initiatives</h3>
+            <h4>Renewable Energy Policy</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> Skill development for youth</li>
+                <li><i class="fa-solid fa-check"></i> Loans for up to 10kW setups</li>
+                <li><i class="fa-solid fa-check"></i> Power for street lighting</li>
+            </ul>
+            <div class="benefit-box">
+                <strong>Focus:</strong> Creating a trained workforce for the solar ecosystem.
+            </div>
+        </div>
+
+        <div class="scheme-card hidden-el">
+            <div class="scheme-icon" style="color:#34495e;"><i class="fa-solid fa-industry"></i></div>
+            <h3>Industrial Policy</h3>
+            <h4>Commercial Incentives</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> Electricity duty exemptions</li>
+                <li><i class="fa-solid fa-check"></i> Stamp duty rebates</li>
+                <li><i class="fa-solid fa-check"></i> 10-year tax benefits</li>
+            </ul>
+            <div class="benefit-box">
+                <strong>For:</strong> Large projects, factories, and captive generation.
+            </div>
+        </div>
+
+        <div class="scheme-card hidden-el">
+            <div class="scheme-icon" style="color:#2980b9;"><i class="fa-solid fa-building"></i></div>
+            <h3>RWA & Societies</h3>
+            <h4>Energy Development Agency</h4>
+            <ul class="scheme-list">
+                <li><i class="fa-solid fa-check"></i> Bulk subsidy advantages</li>
+                <li><i class="fa-solid fa-check"></i> Common area lighting</li>
+                <li><i class="fa-solid fa-check"></i> Net-metering for shared energy</li>
+            </ul>
+            <div class="benefit-box">
+                <strong>Result:</strong> Drastically lower maintenance bills for residents.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services-catalog">
+    <div class="section-title hidden-el">
+        <h2>What We <span>Deliver</span></h2>
+    </div>
+    <div class="catalog-grid">
+        
+        <div class="catalog-item hidden-el">
+            <div class="cat-icon"><i class="fa-solid fa-house"></i></div>
+            <div class="cat-content">
+                <h3>Residential Solar</h3>
+                <ul>
+                    <li>Rooftop installation (1-10kW)</li>
+                    <li>PM Surya Ghar subsidy filing</li>
+                    <li>Net-metering setup with DISCOM</li>
+                    <li>Lifetime warranty support</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="catalog-item hidden-el">
+            <div class="cat-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+            <div class="cat-content">
+                <h3>Agricultural Solutions</h3>
+                <ul>
+                    <li>Solar Water Pumps (Open/Borewell)</li>
+                    <li>Mukhyamantri/KUSUM subsidy</li>
+                    <li>Farm electrification</li>
+                    <li>Off-grid pump installation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="catalog-item hidden-el">
+            <div class="cat-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="cat-content">
+                <h3>Institutional Projects</h3>
+                <ul>
+                    <li>Schools & College Campuses</li>
+                    <li>Hospitals & Community Halls</li>
+                    <li>Group Housing (RWA) plans</li>
+                    <li>Bulk procurement discounts</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="catalog-item hidden-el">
+            <div class="cat-icon"><i class="fa-solid fa-file-contract"></i></div>
+            <div class="cat-content">
+                <h3>Consultancy & Support</h3>
+                <ul>
+                    <li>ROI & Energy Saving Reports</li>
+                    <li>State Scheme Eligibility Checks</li>
+                    <li>Feasibility Studies</li>
+                    <li>Liaising for permits</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="catalog-item hidden-el">
+            <div class="cat-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <div class="cat-content">
+                <h3>Training & Workforce</h3>
+                <ul>
+                    <li>Solar Technician Training</li>
+                    <li>Installation Certification</li>
+                    <li>Upskilling for Energy Sector</li>
+                    <li>Safety & Maintenance Workshops</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="process">
+        <div class="section-title hidden-el">
+            <h2>Installation <span>Process</span></h2>
+        </div>
+        <div class="process-container">
+            <div class="process-step hidden-el">
+                <div class="step-number">01</div>
+                <div class="step-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Consultation</h3>
+                <p>We analyze your bill and suggest the perfect system size.</p>
+            </div>
+            <div class="process-step hidden-el">
+                <div class="step-number">02</div>
+                <div class="step-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                <h3>Site Survey</h3>
+                <p>Engineers check shadow areas and roof strength.</p>
+            </div>
+            <div class="process-step hidden-el">
+                <div class="step-number">03</div>
+                <div class="step-icon"><i class="fa-solid fa-file-signature"></i></div>
+                <h3>Govt. Approvals</h3>
+                <p>We handle all paperwork, subsidies, and net-metering.</p>
+            </div>
+            <div class="process-step hidden-el">
+                <div class="step-number">04</div>
+                <div class="step-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <h3>Installation</h3>
+                <p>Certified team installs panels and inverter in 1-2 days.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="comparison">
+        <div class="section-title hidden-el">
+            <h2>Why <span>Solar Wins</span></h2>
+        </div>
+        <div class="comp-wrapper hidden-el">
+            <div class="comp-text">
+                <h3>Beat the Rising Cost of Grid Electricity</h3>
+                <p>Electricity prices have risen by <strong>40%</strong> in the last 5 years. Solar energy freezes your power cost at roughly ₹0.</p><br>
+                <ul class="comp-list">
+                    <li><i class="fa-solid fa-check"></i> <strong>Grid Power:</strong> Cost increases every year.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Solar Power:</strong> One-time investment, free forever.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Maintenance:</strong> Solar requires only water cleaning.</li>
+                </ul>
+            </div>
+            <div class="comp-chart">
+                <div class="chart-header">25 Year Cost Comparison (3kW System)</div>
+                <div class="bar-group">
+                    <div class="bar-label">Grid Bill</div>
+                    <div class="bar-container">
+                        <div class="bar grid-bar" style="width: 0%;" data-width="90%"><span>₹9 Lakhs</span></div>
+                    </div>
+                </div>
+                <div class="bar-group">
+                    <div class="bar-label">Solar Cost</div>
+                    <div class="bar-container">
+                        <div class="bar solar-bar" style="width: 0%;" data-width="20%"><span>₹1.8 Lakhs</span></div>
+                    </div>
+                </div>
+                <div class="chart-footer">You save approx <strong>₹7.2 Lakhs</strong> with Solar!</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title hidden-el">
+            <h2>Recent <span>Installations</span></h2>
+        </div>
+        <div class="project-grid">
+            <div class="project-card hidden-el" onclick="openImgModal('https://placehold.co/600x400?text=Project+1', 'Residential 3.4kW')">
+                <img src="2.jpeg" alt="Solar Project">
+                <div class="overlay"><h3>Residential 3.4kW</h3><p>Nagpur, MH</p></div>
+            </div>
+            <div class="project-card hidden-el" onclick="openImgModal('https://placehold.co/600x400?text=Project+2', 'Residential 4.5kW')">
+                <img src="WhatsApp Image 2026-02-05 at 13.11.46.jpeg" alt="Solar Project">
+                <div class="overlay"><h3>Residential 4.5kW</h3><p>Nagpur, MH</p></div>
+            </div>
+            <div class="project-card hidden-el" onclick="openImgModal('https://placehold.co/600x400?text=Project+3', 'Residential 5kW')">
+                <img src="project3.jpeg" alt="Solar Project">
+                <div class="overlay"><h3>Residential 5kW</h3><p>Nagpur, MH</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us">
+        <div class="section-title hidden-el"><h2 style="color:white;">Solar Wave <span>Impact</span></h2></div>
+        <div class="stats-container">
+            <div class="stat-box hidden-el"><span class="counter" data-target="100">0</span><span>+</span><p>Happy Families</p></div>
+            <div class="stat-box hidden-el"><span class="counter" data-target="23">0</span><span>+</span><p>Years Experience</p></div>
+            <div class="stat-box hidden-el"><span class="counter" data-target="5">0</span><span>MW+</span><p>Power Installed</p></div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <div class="section-title"><h2>World-Class <span>Materials</span></h2></div>
+        <div class="swiper partnerSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsmSqYBeU-NsRMh5AmFSHiEvXDGo9MMGOLLQ&s" alt="Addo"></div>
+                <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/JSW_Group_logo.svg/1200px-JSW_Group_logo.svg.png" alt="JSW"></div>
+                <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMtaRsI5_Td1xvVV_oUsuw5gHj5Ad8PosXQ&s" alt="Vsole"></div>
+                <div class="swiper-slide"><img src="https://siddharthpower.com/wp-content/uploads/2025/05/tata-solar-power-plants.png" alt="Tata"></div>
+                <div class="swiper-slide"><img src="https://solaraceenergy.com/wp-content/uploads/2024/12/Adani-Solar-Logo_Four-Colour-Wd-1024x388.png" alt="Adani"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-info hidden-el"><br>
+                <h3>Schedule a <span>FREE consultation</span> today!</h3>
+                <p>Get a free site survey. Our engineer will visit your location to check shadow analysis and roof strength.</p><br>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +91 9422045881</li>
+                    <li><i class="fa-solid fa-envelope"></i> sales@solarwavesystems.com</li> 
+                    <li><i class="fa-solid fa-location-dot"></i><strong>Address:</strong> Plot No.1133/34 S-19 Amrut Mahotsav Apartment Ashirwad Nagar, Chowk, Mhalgi Nagar, Nagpur, Maharashtra 440024</li>
+                </ul>
+
+                
+            </div>
+            <div class="contact-form hidden-el"><br>
+                <form id="contactForm">
+                    <div class="form-header"><h3>Get Your Free Solar Quote</h3></div>
+                    <input type="text" id="c_name" placeholder="Your Name" required>
+                    <input type="tel" id="c_phone" placeholder="Phone Number" required>
+                    <input type="number" id="c_bill" placeholder="Avg. Monthly Electricity Bill (₹)" required>
+                    <button type="submit">Get My Free Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content-grid">
+            <div class="footer-col" style="max-width:320px;">
+                <div class="footer-brand" style="display:flex;align-items:center;gap:10px;margin-bottom:15px;">
+                    <h3>Solar Wave Systems</h3>
+                </div>
+                <p style="color:#aaa;line-height:1.6;font-size:14px;">Empowering Maharashtra with clean, sustainable, and affordable solar energy solutions.</p>
+                <div class="f-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919422045881"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3><br>
+                <ul class="f-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" style="max-width: 450px;">
+                <h3>Our Service Areas</h3><br>
+                <div class="city-links">
+                    All over Maharashtra
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Solar Wave Systems. All Rights Reserved.</p></div>
+    </footer>
+
+    <div id="calcModal" class="modal-calc" onclick="closeCalcOnBg(event)">
+        <div class="modal-calc-content">
+            <span class="close-calc" onclick="closeCalcModal()">×</span>
+            <div class="calc-header">
+                <h2>Solar <span>Estimator</span></h2>
+                <p>Calculate savings or request a professional quote</p>
+            </div>
+            <div class="calc-tabs">
+                <button class="tab active" onclick="switchTab('res', this)"><i class="fa-solid fa-house"></i> Home</button>
+                <button class="tab" onclick="switchTab('com', this)"><i class="fa-solid fa-building"></i> Commercial</button>
+                <button class="tab" onclick="switchTab('ind', this)"><i class="fa-solid fa-industry"></i> Industrial</button>
+            </div>
+            
+            <div id="view-residential" class="calc-body">
+                <div class="calc-left">
+                    <div style="margin-bottom:20px;">
+                        <label style="font-weight:700; color:#555; display:block; margin-bottom:10px;">Monthly Electricity Bill</label>
+                        <div class="bill-display">₹<span id="displayBill">3000</span></div>
+                        
+                        <input type="range" id="billSlider" min="1000" max="10000" step="100" value="3000" oninput="updateFromSlider()">
+                        <div class="slider-labels"><span>₹1k</span><span>Slide to Adjust</span><span>₹10k</span></div>
+                        <input type="number" id="manualBillInput" class="manual-bill-input" placeholder="Or enter bill amount" value="3000" oninput="updateFromInput()">
+                    </div>
+                </div>
+                <div class="calc-right">
+                    <div class="res-row"><span>Rec. System Size</span><span class="res-val"><span id="resSize">0</span> kW</span></div>
+                    <div class="res-row"><span>Total Cost</span><span class="res-val">₹<span id="resCost">0</span></span></div>
+                    <div class="res-row"><span>Govt. Subsidy</span><span class="res-val text-green">- ₹<span id="resSubsidy">0</span></span></div>
+                    <div class="divider"></div>
+                    <div class="res-row"><span>Net Cost</span><span class="res-val big">₹<span id="resNet">0</span></span></div>
+                    <div class="payback-box">⚡ ROI in just <strong id="resPayback">0</strong> Years</div>
+                    <button class="action-btn" onclick="sendWhatsAppQuote()"><i class="fa-brands fa-whatsapp"></i> Get Quote on WhatsApp</button>
+                </div>
+            </div>
+
+            <div id="view-business" class="calc-body" style="display: none;">
+                <div class="calc-left" style="display:flex; flex-direction:column; justify-content:center;">
+                    <div style="text-align:center; margin-bottom:15px;">
+                        <i id="bizIcon" class="fa-solid fa-building-user" style="font-size:3rem; color:var(--primary); margin-bottom:1rem;"></i>
+                        <h4 id="bizTitle">Commercial Solar</h4>
+                        <p style="color:#666; font-size:0.9rem;">Reduce your overheads by up to 80% with accelerated depreciation benefits.</p>
+                    </div>
+                    
+                    <div class="cleaning-offer">
+                        <i class="fa-solid fa-sparkles"></i> <strong>Exclusive Benefit:</strong><br>
+                        20 Professional Plant Deep-Cleaning Sessions — <br><strong>ABSOLUTELY FREE!</strong>
+                    </div>
+                </div>
+                
+                <div class="calc-right">
+                    <input type="text" id="biz_name" class="biz-input" placeholder="Company Name" required>
+                    <input type="email" id="biz_email" class="biz-input" placeholder="Email ID" required>
+                    <input type="number" id="biz_bill" class="biz-input" placeholder="Monthly Bill Amount (₹)" required>
+                    
+                    <label class="helper-text" style="color:#333; font-weight:600; margin-bottom:5px;">Available Roof Area (Sq. Ft.)</label>
+                    <input type="number" id="biz_area" class="biz-input" placeholder="e.g. 5000" oninput="calculateBizCapacity()">
+                    <span class="helper-text">Approx 90 sq. ft. required per 1kW</span>
+                    
+                    <div class="capacity-display">
+                        Potential Plant Capacity: <strong id="biz_cap">0</strong> kW
+                    </div>
+
+                    <button class="action-btn" onclick="sendBizWhatsApp()"><i class="fa-brands fa-whatsapp"></i> Request Consultation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="imgModal" class="modal-calc">
+        <span class="close-calc" onclick="document.getElementById('imgModal').style.display='none'" style="color:#fff; right:30px; top:30px;">×</span>
+        <div class="modal-img-content">
+            <img id="modalImageDisplay">
+            <p id="imgCaption"></p>
+        </div>
+    </div>
+
+    <div class="mobile-sticky-footer">
+        <a href="tel:+919422045881" class="sticky-btn call-sticky"><i class="fa-solid fa-phone-volume"></i> Call Us</a>
+        <a href="https://wa.me/919422045881" class="sticky-btn whatsapp-sticky" target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+    </div>
+
+    <a href="#contact" class="floating-calc-btn" onclick="openCalcModal()"><i class="fa-solid fa-calculator"></i> ROI Calculator</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // --- COMMON SCRIPTS ---
+        window.addEventListener('load', () => { document.getElementById('preloader').classList.add('hide-preloader'); });
+        document.querySelector('.hamburger').addEventListener('click', () => { document.querySelector('.navbar').classList.toggle('active'); });
+
+        // Scroll Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show-el');
+                    if (entry.target.classList.contains('comp-wrapper')) {
+                        document.querySelectorAll('.bar').forEach(bar => { bar.style.width = bar.getAttribute('data-width'); });
+                    }
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.hidden-el, .comp-wrapper').forEach(el => observer.observe(el));
+
+        // Stats
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('.counter');
+                    counters.forEach(counter => {
+                        const target = +counter.getAttribute('data-target');
+                        let count = 0; const inc = target / 50;
+                        const update = () => { count += inc; if (count < target) { counter.innerText = Math.ceil(count); requestAnimationFrame(update); } else counter.innerText = target; };
+                        update();
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        });
+        if(document.querySelector('.stats-container')) statsObserver.observe(document.querySelector('.stats-container'));
+
+        // --- CALCULATOR LOGIC ---
+        let currentBizType = 'Commercial'; // Default
+
+        function updateFromSlider() {
+            const val = document.getElementById('billSlider').value;
+            document.getElementById('manualBillInput').value = val;
+            calculateROI(val);
+        }
+        function updateFromInput() {
+            let val = document.getElementById('manualBillInput').value;
+            if(val > 10000) val = 10000;
+            if(val < 1000) val = 1000;
+            document.getElementById('billSlider').value = val;
+            calculateROI(val);
+        }
+        function calculateROI(bill) {
+            bill = bill || parseInt(document.getElementById('billSlider').value);
+            document.getElementById('displayBill').innerText = bill;
+            const unitsNeeded = bill / 8;
+            const requiredSize = unitsNeeded / 120;
+            const pricing = [{kw:2.7,cost:180000},{kw:3.3,cost:195000},{kw:3.8,cost:220000},{kw:4.3,cost:245000},{kw:4.9,cost:295000},{kw:5.4,cost:320000},{kw:5.8,cost:350000},{kw:6.3,cost:380000},{kw:8.0,cost:450000},{kw:10.0,cost:490000}];
+            let selected = pricing[pricing.length - 1]; 
+            for (let i = 0; i < pricing.length; i++) { if (pricing[i].kw >= requiredSize) { selected = pricing[i]; break; } }
+            if (requiredSize < 2.7) selected = pricing[0];
+            const size = selected.kw; const totalCost = selected.cost;
+            let subsidy = (size <= 2) ? size * 30000 : (size <= 3 ? 60000 + ((size - 2) * 18000) : 78000);
+            subsidy = Math.min(subsidy, totalCost);
+            const netCost = totalCost - subsidy;
+            const payback = (netCost / (size * 120 * 8 * 12)).toFixed(1);
+            document.getElementById('resSize').innerText = size;
+            document.getElementById('resCost').innerText = totalCost.toLocaleString();
+            document.getElementById('resSubsidy').innerText = Math.round(subsidy).toLocaleString();
+            document.getElementById('resNet').innerText = Math.round(netCost).toLocaleString();
+            document.getElementById('resPayback').innerText = payback;
+        }
+        calculateROI(3000);
+
+        // --- BUSINESS LOGIC (COM & IND) ---
+        function calculateBizCapacity() {
+            const area = document.getElementById('biz_area').value;
+            if(area) {
+                // Logic: 90 sqft per 1kW
+                const cap = (area / 90).toFixed(1);
+                document.getElementById('biz_cap').innerText = cap;
+            } else {
+                document.getElementById('biz_cap').innerText = "0";
+            }
+        }
+
+        function switchTab(type, btn) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            btn.classList.add('active');
+            
+            const resView = document.getElementById('view-residential');
+            const bizView = document.getElementById('view-business');
+            const bizTitle = document.getElementById('bizTitle');
+            const bizIcon = document.getElementById('bizIcon');
+
+            if (type === 'res') {
+                resView.style.display = 'grid';
+                bizView.style.display = 'none';
+            } else {
+                resView.style.display = 'none';
+                bizView.style.display = 'grid';
+                
+                // Update text based on Commercial vs Industrial
+                if(type === 'com') {
+                    currentBizType = 'Commercial';
+                    bizTitle.innerText = "Commercial Solar";
+                    bizIcon.className = "fa-solid fa-building-user";
+                } else {
+                    currentBizType = 'Industrial';
+                    bizTitle.innerText = "Industrial Solar";
+                    bizIcon.className = "fa-solid fa-industry";
+                }
+            }
+        }
+
+        function openCalcModal() { document.getElementById('calcModal').style.display = 'flex'; }
+        function closeCalcModal() { document.getElementById('calcModal').style.display = 'none'; }
+        function closeCalcOnBg(e) { if (e.target.id === 'calcModal') closeCalcModal(); }
+        function openImgModal(src, caption) {
+            const modal = document.getElementById('imgModal');
+            document.getElementById('modalImageDisplay').src = src;
+            document.getElementById('imgCaption').innerText = caption;
+            modal.style.display = 'flex';
+        }
+
+        // --- WHATSAPP FUNCTIONS ---
+        function sendWhatsAppQuote() {
+            const bill = document.getElementById('manualBillInput').value;
+            const size = document.getElementById('resSize').innerText;
+            const net = document.getElementById('resNet').innerText;
+            const text = `Hi, I am interested in Home Solar. My bill is ₹${bill}. Calculated size: ${size}kW. Net Cost: ₹${net}. Please connect.`;
+            window.open(`https://wa.me/919422045881?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        function sendBizWhatsApp() {
+            const name = document.getElementById('biz_name').value;
+            const email = document.getElementById('biz_email').value;
+            const bill = document.getElementById('biz_bill').value;
+            const area = document.getElementById('biz_area').value;
+            const cap = document.getElementById('biz_cap').innerText;
+
+            if(!name || !bill) { alert('Please fill in required fields'); return; }
+
+            const text = `Hi, I need a ${currentBizType} Solar quote.\n\nCompany: ${name}\nEmail: ${email}\nMonthly Bill: ₹${bill}\nRoof Area: ${area} sqft\nEst. Capacity: ${cap} kW\n\n(Includes 20 Free Deep Cleanings Offer)`;
+            window.open(`https://wa.me/919422045881?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        // Contact Form Main Page
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('c_name').value;
+            const phone = document.getElementById('c_phone').value;
+            const bill = document.getElementById('c_bill').value;
+            const text = `New Enquiry from Website:\nName: ${name}\nPhone: ${phone}\nBill: ${bill}`;
+            window.open(`https://wa.me/919422045881?text=${encodeURIComponent(text)}`, '_blank');
+        });
+
+        // Swiper
+        new Swiper('.partnerSwiper', {
+            slidesPerView: 2, spaceBetween: 30, loop: true,
+            autoplay: { delay: 2000, disableOnInteraction: false },
+            breakpoints: {
+                640: { slidesPerView: 3, spaceBetween: 20 },
+                768: { slidesPerView: 4, spaceBetween: 40 },
+                1024: { slidesPerView: 5, spaceBetween: 50 },
+            }
+        });
+    </script>
+</body>
+</html>
